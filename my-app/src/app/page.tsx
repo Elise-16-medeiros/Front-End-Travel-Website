@@ -1,10 +1,18 @@
+import Camp from "@/template/camp";
+import Features from "@/template/features";
+import GetApp from "@/template/getApp";
+import Guide from "@/template/guide";
+import Hero from "@/template/hero";
 
 
 export default function Home() {
   return (
     <main>
-      <h1 className="font-title text-3xl">Hello world</h1>
-      <p className="font-body">Lorem ipsum dolor sit amet.</p>
-    </main>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+     </main>
   );
 }

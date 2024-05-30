@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Oswald, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
-import Navbar from "./template/navbar";
-import Footer from "./template/footer";
+import Navbar from "../template/navbar";
+import Footer from "../template/footer";
 
 const oswald = Oswald({
   subsets: ["latin"],
